@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ad386d34-f2e5-4483-83c8-7c79d5a908e1",
+    "data": [
+      {
+        "text": "souffle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "c0cb134c-5b98-47b7-8538-1ce284a178f9",
+    "data": [
+      {
+        "text": "เมนูซูเฟล่",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "93be919a-80e3-482a-9949-ea4d42c2680e",
+    "data": [
+      {
+        "text": "ซูเฟล่เมนู",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "d2027f9a-5bbd-4b4d-b5df-1f1a6cefebd1",
+    "data": [
+      {
+        "text": "ซูเฟล่",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "e805e6cb-8a01-4b52-b8d4-0ee5175d5065",
+    "data": [
+      {
+        "text": "menu souffle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "8e9b0780-e0a4-4f00-9836-79e2eec89ddf",
+    "data": [
+      {
+        "text": "souffle menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

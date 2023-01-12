@@ -1,0 +1,82 @@
+{
+  "id": "33eb9d5d-de87-419d-b084-8fac2297b570",
+  "parentId": "7f3c3945-5155-4a26-95c7-937644fd0078",
+  "rootParentId": "7f3c3945-5155-4a26-95c7-937644fd0078",
+  "name": "PreOrder - yes",
+  "auto": true,
+  "contexts": [
+    "PreOrder-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PreOrder.PreOrder-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b768eaec-04c3-4463-a13b-3af85afdd2f3",
+          "name": "CafeMenu",
+          "required": false,
+          "dataType": "@CafeMenu",
+          "value": "#PreOrder-followup.CafeMenu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c218e216-ced7-472e-87d6-84f82f3f53c2",
+          "name": "TypeSize",
+          "required": false,
+          "dataType": "@TypeSize",
+          "value": "#PreOrder-followup.TypeSize",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0299731d-96ab-48a3-ae2d-201c8f9ef97b",
+          "name": "BoxNumber",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "#PreOrder-followup.BoxNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ลูกค้ายืนยัน #PreOrder-followup.CafeMenu ขนาด #PreOrder-followup.TypeSize จำนวน #PreOrder-followup.BoxNumber กล่อง"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

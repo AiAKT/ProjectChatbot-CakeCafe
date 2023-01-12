@@ -1,0 +1,573 @@
+[
+  {
+    "id": "cf3ddf3f-9652-462b-8f6c-f4ac0bba647f",
+    "data": [
+      {
+        "text": "coffee",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "M",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "f38074b7-7647-4296-9494-8a4af25ab681",
+    "data": [
+      {
+        "text": "pinkky",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "L",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "7",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "130c9174-0b26-4f87-a9a6-54be4ff41870",
+    "data": [
+      {
+        "text": "Berry",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "S",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "29153dc6-eb4a-4846-946b-f4f496ddbf60",
+    "data": [
+      {
+        "text": "cheese",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "M",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "59e64ac6-578e-49e4-bbee-0a23d6b3ee15",
+    "data": [
+      {
+        "text": "Icing",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "L",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "16e19c8c-7b29-4dc4-9755-619b7dc625d3",
+    "data": [
+      {
+        "text": "sweety",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "s",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "8",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "a469354c-9909-4aa4-9dcd-68655e01bbbc",
+    "data": [
+      {
+        "text": "Rainbow",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "S",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "9ac65064-8cda-469a-8e6b-348808a0be2f",
+    "data": [
+      {
+        "text": "Matcha",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "M",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "9",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "844ebbde-f3f2-44bc-a506-61fd8116ca73",
+    "data": [
+      {
+        "text": "fruits",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "l",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "7",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "e4fefa4f-4ad7-49bb-8579-19997bde1b77",
+    "data": [
+      {
+        "text": "paintcake",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "l",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "0996193e-4d78-4380-9634-11dffe4d37a9",
+    "data": [
+      {
+        "text": "6",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      },
+      {
+        "text": "s",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lime",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "937bed92-2a17-4943-8dae-2b9c1c5e253d",
+    "data": [
+      {
+        "text": "8",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      },
+      {
+        "text": "m",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "chocchip",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "38cf5786-2f6a-4230-b53b-d16dee4fb2f5",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      },
+      {
+        "text": "L",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "butter",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "6192edb1-7d8e-49b0-b37f-5c8f70f3715b",
+    "data": [
+      {
+        "text": "s",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pinkky",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": true
+      },
+      {
+        "text": "6",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "27b346f1-da0e-4406-810b-904586d7978e",
+    "data": [
+      {
+        "text": "art",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": "แอล",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "deca585c-60a0-4d94-8a20-1f6498ef481f",
+    "data": [
+      {
+        "text": "Daisy",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "m",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "f2026362-241e-4eee-8c54-ff2172afcbdf",
+    "data": [
+      {
+        "text": "Sunset cake",
+        "meta": "@CafeMenu",
+        "alias": "CafeMenu",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "S",
+        "meta": "@TypeSize",
+        "alias": "TypeSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@sys.number",
+        "alias": "BoxNumber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

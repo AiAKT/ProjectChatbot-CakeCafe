@@ -1,0 +1,38 @@
+{
+  "id": "62ef42ed-8d6c-4284-8853-b7df06121e8f",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ขอโทษค่ะ อะไรนะคะ",
+            "ขอความกรุณา อีกครั้งได้ไหมคะ",
+            "ขออภัยค่ะ เราไม่เข้าใจค่ะ",
+            "กรุณาพิมพ์มาอีกครั้งได้ไหมคะ"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

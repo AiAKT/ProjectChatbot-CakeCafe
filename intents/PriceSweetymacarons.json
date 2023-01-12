@@ -1,0 +1,49 @@
+{
+  "id": "639c5a5c-9e6e-4351-905b-e47f6022b847",
+  "name": "PriceSweetymacarons",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "สวัสดีค่ะ Sweetymacarons\nS \u003d 3 ชิ้น  ต่อ กล่อง 270บาท\nM \u003d 6 ชิ้น  ต่อ กล่อง 480บาท\nL \u003d  12 ชิ้น  ต่อ กล่อง 930บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX Sweetymacarons S 1 (Sweetymacarons Size S 1 กล่อง)",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "8df34720-1891-4f51-8022-aed4e766b92b",
+  "name": "MacaronsMenu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "this is an image carousel template",
+              "template": {
+                "type": "image_carousel",
+                "columns": [
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "Rainbow",
+                      "text": "Rainbowmacarons"
+                    },
+                    "imageUrl": "https://sv1.picz.in.th/images/2022/03/24/8Sxrpu.jpg"
+                  },
+                  {
+                    "action": {
+                      "text": "Sweetymacarons",
+                      "type": "message",
+                      "label": "Sweety"
+                    },
+                    "imageUrl": "https://sv1.picz.in.th/images/2022/03/24/8Sxnj0.jpg"
+                  },
+                  {
+                    "imageUrl": "https://sv1.picz.in.th/images/2022/03/24/8SxsZq.jpg",
+                    "action": {
+                      "text": "Artmacarons",
+                      "label": "Art ",
+                      "type": "message"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

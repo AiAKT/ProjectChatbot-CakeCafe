@@ -1,0 +1,78 @@
+{
+  "id": "ec0961b1-4971-4ba0-9989-f52545306b47",
+  "name": "TartMenu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "this is an image carousel template",
+              "template": {
+                "type": "image_carousel",
+                "columns": [
+                  {
+                    "imageUrl": "https://i.pinimg.com/564x/22/3e/ca/223eca70d95c7745c2f826391023118d.jpg",
+                    "action": {
+                      "text": "Pinkkytarts",
+                      "label": "Pinkky ",
+                      "type": "message"
+                    }
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "Lime ",
+                      "text": "Limetarts"
+                    },
+                    "imageUrl": "https://i.pinimg.com/564x/73/e0/a9/73e0a956d03a6a9e91837a5567a2e1e3.jpg"
+                  },
+                  {
+                    "action": {
+                      "text": "coffeetarts",
+                      "label": "coffee",
+                      "type": "message"
+                    },
+                    "imageUrl": "https://i.pinimg.com/564x/b0/08/be/b008be9c31ae9bf6c7788eb94f7c6bc4.jpg?fbclid\u003dIwAR3H3EyqVoO0q8DWvDOsX3Wg5hmVWqOdWYGHbS0OZAvxQpDEiGiAM_1HCBI"
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

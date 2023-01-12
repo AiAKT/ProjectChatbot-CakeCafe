@@ -1,0 +1,39 @@
+{
+  "id": "83a08bc1-f4a2-4bd4-b93b-d1de15620844",
+  "parentId": "7f3c3945-5155-4a26-95c7-937644fd0078",
+  "rootParentId": "7f3c3945-5155-4a26-95c7-937644fd0078",
+  "name": "PreOrder - no",
+  "auto": true,
+  "contexts": [
+    "PreOrder-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PreOrder.PreOrder-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ลูกค้ายกเลิก #PreOrder-followup.CafeMenu ขนาด #PreOrder-followup.TypeSize จำนวน #PreOrder-followup.BoxNumber กล่องค่ะ"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "e4d9bf29-f4f7-4439-a640-5ce34e92c334",
+    "data": [
+      {
+        "text": "คุกกี้เมนู",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "50f9b1d7-3da8-42eb-96dc-d87e1de683f1",
+    "data": [
+      {
+        "text": "เมนูคุกกี้",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "a018d06b-0f75-4b13-b69f-066134a1c2e4",
+    "data": [
+      {
+        "text": "คุกกี้",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "56db4304-dc14-47ff-badb-b56e3f4e17d8",
+    "data": [
+      {
+        "text": "cookie menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "2b9c8e1e-921f-41c2-a9e5-330ad3e691c3",
+    "data": [
+      {
+        "text": "menu cookie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

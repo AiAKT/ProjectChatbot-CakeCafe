@@ -1,0 +1,49 @@
+{
+  "id": "d098c79e-fb91-42c2-b0be-596f1bbb0bd8",
+  "name": "PriceMatchacookie",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "สวัสดีค่ะ Matchacookie\nS \u003d 1 ชิ้น  ต่อ กล่อง 180บาท\nM \u003d 3 ชิ้น  ต่อ กล่อง 330บาท\nL \u003d  6 ชิ้น  ต่อ กล่อง 630บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX Matchacookie S 1 (Matchacookie Size S 1 กล่อง)\n",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

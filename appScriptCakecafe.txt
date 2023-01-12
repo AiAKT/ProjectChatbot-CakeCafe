@@ -1,0 +1,227 @@
+//https://moremeng.in.th/2019/11/make-line-chatbot-get-google-sheets-data-with-dialogflow.html
+var ss = SpreadsheetApp.openById("1fYNwx0s0C-WQl8eEXIJi32zNoupX10S0ypmUuHvP3g0");
+var sheet = ss.getSheetByName("Sheet1");
+
+function doPost(e) {
+    //Load data from Json of Dialogflow
+    var dialogflowDATA = JSON.parse(e.postData.contents);
+    var CafeMenu =  dialogflowDATA.queryResult.parameters.CafeMenu;
+    var BoxNumber =  dialogflowDATA.queryResult.parameters.BoxNumber;
+    var TypeSize = dialogflowDATA.queryResult.parameters.TypeSize;
+  
+    var tableArray = sheet.getRange(1, 1, sheet.getLastRow(), sheet.getLastColumn()).getValues();
+    var price_cafe = '';
+    var price = '';
+     
+    
+
+    for (var i = 0; i < tableArray.length; i++) {
+        if (tableArray[i][0] == CafeMenu) {
+            i = i + 1;
+            var cafe = 0;
+            if(TypeSize == "M") Cafe = sheet.getRange(i, 3).getValue();
+            else if (TypeSize == "L") Cafe = sheet.getRange(i, 4).getValue();
+            else Cafe = sheet.getRange(i, 2).getValue();     
+            //Calculate cake price
+            var Price_cafe = Cafe*BoxNumber;
+            var Vat = Price_cafe*(7/100);
+            var Cost_cafe = Price_cafe-Vat;
+            var Gift = "****";
+            if(CafeMenu == "Sunset cake" || CafeMenu == "Daisy cake" || CafeMenu == "Paint cake" || CafeMenu == "Fruits cake") {
+              if(TypeSize == "L") Gift = "อุปกรณ์จัดปาร์ตี้";
+              else if(TypeSize == "M" && BoxNumber >= 3) Gift = "เค้ก Size S 1 กล่อง";
+            }
+            else if(CafeMenu == "Chocolatechipcookie" || CafeMenu == "Matchacookie" || CafeMenu == "Buttercookie"){
+              if(Price_cafe >= 300) Gift = "โหลคุกกี้สุดน่ารัก";
+            }
+            else if(CafeMenu == "Rainbowmacarons" || CafeMenu == "Sweetymacarons" || CafeMenu == "Artmacarons"){
+              if(TypeSize == "M" && BoxNumber >= 2) Gift = "ถุงผ้าสุดเก๋";
+            }
+            else if(CafeMenu == "lcingsouffle" || CafeMenu == "Cheesecakesouffle" || CafeMenu == "Berrysouffle"){
+              if(TypeSize == "M" && BoxNumber >= 2) Gift = "Sunsetcake S 1";
+            }
+            else if(CafeMenu == "Pinkkytarts" || CafeMenu == "Limetarts" || CafeMenu == "coffeetarts"){
+              if(Price_cafe >= 200) Gift = "คุกกี้SizeS 1กล่อง";
+            }
+           
+            //Reply Json to Dialogflow 
+            var price = {
+                "fulfillmentMessages": [{
+                    "platform": "line",
+                    "type": 4,
+                    "payload": {
+                        "line": {
+                            "type": "flex",
+                            "altText": "Flex Message",
+                            "contents": {
+                              "type": "bubble",
+                              "direction": "ltr",
+                              "header": {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                  {
+                                    "type": "text",
+                                    "text": "ยอดรวม",
+                                    "size": "lg",
+                                    "align": "start",
+                                    "weight": "bold",
+                                    "color": "#009813"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "฿ "+Price_cafe.toFixed(2),
+                                    "size": "3xl",
+                                    "weight": "bold",
+                                    "color": "#000000"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": CafeMenu,
+                                    "size": "lg",
+                                    "weight": "bold",
+                                    "color": "#000000"
+                                  },
+                                ]
+                              },
+                              "body": {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                  {
+                                    "type": "separator",
+                                    "color": "#C3C3C3"
+                                  },
+                                  {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "margin": "lg",
+                                    "contents": [
+                                      {
+                                        "type": "text",
+                                        "text": " ขนาด ",
+                                        "align": "start",
+                                        "color": "#000000"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text":  TypeSize,
+                                        "align": "end",
+                                        "color": "#000000"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "margin": "lg",
+                                    "contents": [
+                                      {
+                                        "type": "text",
+                                        "text": "จำนวน",
+                                        "color": "#000000"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": BoxNumber+" กล่อง",
+                                        "align": "end"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "margin": "lg",
+                                    "contents": [
+                                      {
+                                        "type": "text",
+                                        "text": "ราคาสินค้า",
+                                        "color": "#000000"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": Cost_cafe.toFixed(2)+" บาท",
+                                        "align": "end"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "margin": "lg",
+                                    "contents": [
+                                      {
+                                        "type": "text",
+                                        "text": "Vat 7%",
+                                        "color": "#000000"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": Vat.toFixed(2)+" บาท",
+                                        "align": "end"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "margin": "lg",
+                                    "contents": [
+                                      {
+                                        "type": "text",
+                                        "text": "ราคาทั้งหมด",
+                                        "color": "#000000"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": Price_cafe.toFixed(2)+" บาท",
+                                        "align": "end"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "margin": "lg",
+                                    "contents": [
+                                      {
+                                        "type": "text",
+                                        "text": "ของแถมพิเศษ",
+                                        "color": "#000000"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": Gift,
+                                        "align": "end"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "margin": "lg",
+                                    "contents": [
+                                      {
+                                        "type": "text",
+                                        "text": "Thank You :)",
+                                        "align": "center"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "separator",
+                                    "margin": "lg",
+                                    "color": "#C3C3C3"
+                                  }
+                                ]
+                              },
+                            }
+                        }
+                    }
+                }]
+            }
+            var replyJSON = ContentService.createTextOutput(JSON.stringify(price)).setMimeType(ContentService.MimeType.JSON);
+            return replyJSON;
+        }
+    }
+}

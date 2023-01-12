@@ -1,0 +1,117 @@
+{
+  "id": "4122bf2f-e866-44db-bebf-ccfc9be918c6",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "สวัสดีค่ะ\nCakeCafe ยินดีให้บริการค่ะ",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "actions": [
+                {
+                  "linkUri": "https://maps.app.goo.gl/tkj6JbDjb7gyrMov5",
+                  "type": "uri",
+                  "area": {
+                    "x": 47.0,
+                    "width": 385.0,
+                    "y": 298.0,
+                    "height": 186.0
+                  }
+                },
+                {
+                  "linkUri": "https://maps.app.goo.gl/HKW23psw1b7S3Z6E8",
+                  "area": {
+                    "height": 197.0,
+                    "width": 461.0,
+                    "y": 294.0,
+                    "x": 557.0
+                  },
+                  "type": "uri"
+                },
+                {
+                  "linkUri": "https://maps.app.goo.gl/daHNLE6YDrM7sHeZ7",
+                  "area": {
+                    "height": 154.0,
+                    "y": 571.0,
+                    "width": 549.0,
+                    "x": 20.0
+                  },
+                  "type": "uri"
+                },
+                {
+                  "area": {
+                    "x": 646.0,
+                    "y": 564.0,
+                    "width": 383.0,
+                    "height": 168.0
+                  },
+                  "linkUri": "https://maps.app.goo.gl/rtLmuhGmg6kJt1jW9",
+                  "type": "uri"
+                },
+                {
+                  "type": "uri",
+                  "area": {
+                    "y": 761.0,
+                    "width": 431.0,
+                    "height": 174.0,
+                    "x": 371.0
+                  },
+                  "linkUri": "https://maps.app.goo.gl/Lrv5bTU7xf43TBtR8"
+                }
+              ],
+              "baseSize": {
+                "width": 1040.0,
+                "height": 1471.0
+              },
+              "type": "imagemap",
+              "baseUrl": "https://sv1.picz.in.th/images/2022/02/18/rteJDN.jpg",
+              "altText": "This is an imagemap"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

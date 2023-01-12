@@ -1,0 +1,99 @@
+{
+  "id": "962732bb-5175-430c-ad0e-694d30016c51",
+  "name": "MAP",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "baseSize": {
+                "width": 1040.0,
+                "height": 1471.0
+              },
+              "type": "imagemap",
+              "actions": [
+                {
+                  "type": "uri",
+                  "linkUri": "https://maps.app.goo.gl/tkj6JbDjb7gyrMov5",
+                  "area": {
+                    "height": 186.0,
+                    "y": 298.0,
+                    "width": 385.0,
+                    "x": 47.0
+                  }
+                },
+                {
+                  "area": {
+                    "width": 461.0,
+                    "y": 294.0,
+                    "height": 197.0,
+                    "x": 557.0
+                  },
+                  "type": "uri",
+                  "linkUri": "https://maps.app.goo.gl/HKW23psw1b7S3Z6E8"
+                },
+                {
+                  "area": {
+                    "width": 549.0,
+                    "x": 20.0,
+                    "height": 154.0,
+                    "y": 571.0
+                  },
+                  "linkUri": "https://maps.app.goo.gl/daHNLE6YDrM7sHeZ7",
+                  "type": "uri"
+                },
+                {
+                  "type": "uri",
+                  "linkUri": "https://maps.app.goo.gl/rtLmuhGmg6kJt1jW9",
+                  "area": {
+                    "width": 383.0,
+                    "height": 168.0,
+                    "x": 646.0,
+                    "y": 564.0
+                  }
+                },
+                {
+                  "area": {
+                    "y": 761.0,
+                    "x": 371.0,
+                    "height": 174.0,
+                    "width": 431.0
+                  },
+                  "type": "uri",
+                  "linkUri": "https://maps.app.goo.gl/Lrv5bTU7xf43TBtR8"
+                }
+              ],
+              "altText": "This is an imagemap",
+              "baseUrl": "https://sv1.picz.in.th/images/2022/02/18/rteJDN.jpg"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

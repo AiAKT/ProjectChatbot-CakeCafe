@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3649243b-46dd-4408-a066-b4b012bb9e46",
+    "data": [
+      {
+        "text": "coupon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "b3a891a0-7faa-4948-9d4e-0808c54017a3",
+    "data": [
+      {
+        "text": "พิเศษ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "d13d8356-9def-4cdc-acf7-daf60e926382",
+    "data": [
+      {
+        "text": "คูปอง",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "57d34fd6-1462-4a21-a663-2bbd3ae920b6",
+    "data": [
+      {
+        "text": "แลก",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

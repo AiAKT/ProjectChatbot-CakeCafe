@@ -1,0 +1,32 @@
+{
+  "description": "",
+  "language": "th",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "CakeCafe",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "defaultTimezone": "Asia/Bangkok",
+  "webhook": {
+    "url": "https://script.google.com/macros/s/AKfycbyG_Em6394CeTr34for3lX28AiWqHzBvO5c-jJEHFNDZiD8D5pdZmCNrzhK9mexnCRc/exec",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2",
+  "secondaryKey": "8b3d6f466f8d478b9eaf4a196163a4cd",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": 0.0,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": true
+}

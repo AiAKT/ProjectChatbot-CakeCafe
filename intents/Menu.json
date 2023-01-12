@@ -1,0 +1,52 @@
+{
+  "id": "28494c16-4078-4f96-86d1-571bc2155367",
+  "name": "Menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "line",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-2d4a9.appspot.com/o/Promotion%20(3).jpg?alt\u003dmedia\u0026token\u003d76d971d8-504a-4045-adf7-29d31e092a83",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "previewImageUrl": "https://firebasestorage.googleapis.com/v0/b/test-2d4a9.appspot.com/o/2BD2D75E-37DA-411D-9288-2AC42F01E734.png?alt\u003dmedia\u0026token\u003d4b161b47-5dfc-47bd-bc2e-eb65bab5bc4d",
+              "type": "video",
+              "originalContentUrl": "https://firebasestorage.googleapis.com/v0/b/test-2d4a9.appspot.com/o/CakeCafe%20(3).mp4?alt\u003dmedia\u0026token\u003dd6c88683-8a0e-4516-85b5-7e2b45e8349a"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

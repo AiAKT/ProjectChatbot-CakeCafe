@@ -1,0 +1,145 @@
+[
+  {
+    "id": "6487c12c-acc3-4c5f-8326-d634a00af30d",
+    "data": [
+      {
+        "text": "สาขา",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "6f1fffee-cd56-4787-97fa-5698bf7f5f4a",
+    "data": [
+      {
+        "text": "Location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "57004987-bca5-4ad8-ab71-96d0494e0905",
+    "data": [
+      {
+        "text": "ส่งโลมา",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "728f7908-d219-460f-b23a-27f6ae801d31",
+    "data": [
+      {
+        "text": "แผนที่",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "35987534-8150-4c76-a748-b7c6bfaa1b38",
+    "data": [
+      {
+        "text": "ที่อยู่",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "d7a0e283-b3bc-4576-875c-d69b17041f07",
+    "data": [
+      {
+        "text": "ขอที่อยู่ร้านหน่อย",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "3a72bb27-517c-468e-8577-2768397baf8a",
+    "data": [
+      {
+        "text": "ที่ตั้งร้าน",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "0d2f61dc-c9e4-4160-9035-8fe79d9ee389",
+    "data": [
+      {
+        "text": "ร้านอยู่ไหน",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "38742d3a-3acc-46c3-b32a-3ce112901de1",
+    "data": [
+      {
+        "text": "โล",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "9346d09f-d618-4305-8eec-78c277babb98",
+    "data": [
+      {
+        "text": "โลเคชั่น",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "054ef90f-e90c-4740-a58f-819a0054b4b4",
+    "data": [
+      {
+        "text": "ส่งโลหน่อย",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

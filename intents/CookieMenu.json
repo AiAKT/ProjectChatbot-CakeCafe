@@ -1,0 +1,78 @@
+{
+  "id": "c333caec-baad-4982-979c-045248d970f8",
+  "name": "CookieMenu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "template": {
+                "columns": [
+                  {
+                    "imageUrl": "https://i.pinimg.com/564x/7b/d0/aa/7bd0aa7a614ef406f62a0c922de6abf4.jpg",
+                    "action": {
+                      "label": "Chocchip",
+                      "type": "message",
+                      "text": "Chocchipcookie"
+                    }
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "text": "Matchacookie",
+                      "label": "Matcha"
+                    },
+                    "imageUrl": "https://i.pinimg.com/564x/47/d3/8a/47d38ad0bc2b4d8b44f420d984f35358.jpg"
+                  },
+                  {
+                    "action": {
+                      "text": "Buttercookie",
+                      "label": "Butter",
+                      "type": "message"
+                    },
+                    "imageUrl": "https://i.pinimg.com/564x/12/36/0f/12360f6f4ba8ffe1dc4a3bb4209ca4b3.jpg"
+                  }
+                ],
+                "type": "image_carousel"
+              },
+              "altText": "this is an image carousel template",
+              "type": "template"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

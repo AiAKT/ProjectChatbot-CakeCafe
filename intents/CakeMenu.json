@@ -1,0 +1,86 @@
+{
+  "id": "b1d129fe-ad77-46e4-a9d2-513d66e297d8",
+  "name": "CakeMenu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "template": {
+                "type": "image_carousel",
+                "columns": [
+                  {
+                    "action": {
+                      "text": "Sunset cake",
+                      "type": "message",
+                      "label": "Sunset Cake"
+                    },
+                    "imageUrl": "https://i.pinimg.com/564x/25/f8/dd/25f8dd05dd35862c1200990da441b6f3.jpg"
+                  },
+                  {
+                    "action": {
+                      "text": "Daisy cake",
+                      "type": "message",
+                      "label": "Daisy Cake"
+                    },
+                    "imageUrl": "https://i.pinimg.com/564x/6a/bb/83/6abb8306703746b8b0c1ac9556d283bd.jpg"
+                  },
+                  {
+                    "action": {
+                      "type": "message",
+                      "label": "Paint Cake",
+                      "text": "Paint cake"
+                    },
+                    "imageUrl": "https://i.pinimg.com/564x/50/09/12/5009128a912b3fbff6e7c5faf364a139.jpg"
+                  },
+                  {
+                    "imageUrl": "https://i.pinimg.com/564x/e9/e8/d3/e9e8d3ddac92e62e67ad4562d32972dd.jpg",
+                    "action": {
+                      "text": "Fruits cake",
+                      "label": "Fruits Cake",
+                      "type": "message"
+                    }
+                  }
+                ]
+              },
+              "altText": "this is an image carousel template",
+              "type": "template"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

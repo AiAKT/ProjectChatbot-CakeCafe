@@ -1,0 +1,49 @@
+{
+  "id": "51eec1df-d3f2-4a03-9a45-83e0f8395dc0",
+  "name": "PriceLimetarts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "สวัสดีค่ะ Limetarts\nS \u003d 1 ชิ้น  ต่อ กล่อง 90บาท\nM \u003d 2 ชิ้น  ต่อ กล่อง 160บาท\nL \u003d  3 ชิ้น  ต่อ กล่อง 220บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX Limetarts S 1 (Limetarts Size S 1 กล่อง)"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

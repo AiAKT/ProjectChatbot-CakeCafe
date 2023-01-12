@@ -1,0 +1,83 @@
+{
+  "id": "7f3c3945-5155-4a26-95c7-937644fd0078",
+  "name": "PreOrder",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "PreOrder-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3450384b-b445-492e-98e8-da2c096b01cb",
+          "name": "CafeMenu",
+          "required": false,
+          "dataType": "@CafeMenu",
+          "value": "$CafeMenu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f5c07581-6420-4954-b1b2-315b88a8aa3b",
+          "name": "TypeSize",
+          "required": false,
+          "dataType": "@TypeSize",
+          "value": "$TypeSize",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "90edb194-dc3a-4a91-a564-d788193828f2",
+          "name": "BoxNumber",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$BoxNumber",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "ได้ค่ะ $CafeMenu ขนาด $TypeSize จำนวน $BoxNumber กล่องค่ะ"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

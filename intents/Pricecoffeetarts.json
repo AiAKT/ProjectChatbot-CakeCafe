@@ -1,0 +1,49 @@
+{
+  "id": "2b6ca34c-0c97-4ab0-aae9-40c0bc54fe00",
+  "name": "Pricecoffeetarts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "สวัสดีค่ะ coffeetarts\nS \u003d 1 ชิ้น  ต่อ กล่อง 110บาท\nM \u003d 2 ชิ้น  ต่อ กล่อง 195บาท\nL \u003d  3 ชิ้น  ต่อ กล่อง 260บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX coffeetarts S 1 (coffeetarts Size S 1 กล่อง)"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

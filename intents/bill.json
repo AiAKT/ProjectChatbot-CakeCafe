@@ -1,0 +1,163 @@
+{
+  "id": "a0c83a76-f206-4bc9-9532-1e87c205cc2b",
+  "name": "bill",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "สรุปยอด",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "contents": {
+                "footer": {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "size": "lg",
+                      "color": "#0084B6",
+                      "action": {
+                        "uri": "https://google.co.th/",
+                        "type": "uri",
+                        "label": "View Details"
+                      },
+                      "align": "start",
+                      "text": "View Details"
+                    }
+                  ]
+                },
+                "type": "bubble",
+                "header": {
+                  "contents": [
+                    {
+                      "type": "text",
+                      "color": "#009813",
+                      "text": "Purchase",
+                      "weight": "bold",
+                      "size": "lg",
+                      "align": "start"
+                    },
+                    {
+                      "color": "#000000",
+                      "size": "3xl",
+                      "text": "฿ 100.00",
+                      "type": "text",
+                      "weight": "bold"
+                    },
+                    {
+                      "weight": "bold",
+                      "size": "lg",
+                      "type": "text",
+                      "color": "#000000",
+                      "text": "Rabbit Line Pay"
+                    },
+                    {
+                      "size": "xs",
+                      "type": "text",
+                      "color": "#B2B2B2",
+                      "text": "2019.02.14 21:47 (GMT+0700)"
+                    },
+                    {
+                      "size": "lg",
+                      "text": "Payment complete.",
+                      "margin": "lg",
+                      "color": "#000000",
+                      "type": "text"
+                    }
+                  ],
+                  "layout": "vertical",
+                  "type": "box"
+                },
+                "direction": "ltr",
+                "body": {
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "separator",
+                      "color": "#C3C3C3"
+                    },
+                    {
+                      "contents": [
+                        {
+                          "color": "#C3C3C3",
+                          "text": "Merchant",
+                          "align": "start",
+                          "type": "text"
+                        },
+                        {
+                          "type": "text",
+                          "text": "BTS 01",
+                          "align": "end",
+                          "color": "#000000"
+                        }
+                      ],
+                      "margin": "lg",
+                      "type": "box",
+                      "layout": "baseline"
+                    },
+                    {
+                      "type": "box",
+                      "contents": [
+                        {
+                          "text": "New balance",
+                          "type": "text",
+                          "color": "#C3C3C3"
+                        },
+                        {
+                          "align": "end",
+                          "text": "฿ 45.57",
+                          "type": "text"
+                        }
+                      ],
+                      "layout": "baseline",
+                      "margin": "lg"
+                    },
+                    {
+                      "type": "separator",
+                      "margin": "lg",
+                      "color": "#C3C3C3"
+                    }
+                  ],
+                  "type": "box"
+                }
+              },
+              "altText": "Flex Message",
+              "type": "flex"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

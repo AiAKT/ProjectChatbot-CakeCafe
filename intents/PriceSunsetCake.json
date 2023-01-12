@@ -1,0 +1,42 @@
+{
+  "id": "45c04ea7-64dc-4b23-b164-868bbd77f69b",
+  "name": "PriceSunsetCake",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "สวัสดีค่ะ Sunset cake \nS \u003d 1 ชิ้น  ต่อ กล่อง 225บาท\nM \u003d 2 ชิ้น  ต่อ กล่อง 405บาท\nL \u003d  3 ชิ้น  ต่อ กล่อง 575บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX Sunset cake S 1 (Sunset cake Size S 1 กล่อง)\n",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

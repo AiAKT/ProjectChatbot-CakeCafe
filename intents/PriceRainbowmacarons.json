@@ -1,0 +1,49 @@
+{
+  "id": "5bc0bd9b-1dbd-4819-af91-dd7ebf725e1e",
+  "name": "PriceRainbowmacarons",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "text": "สวัสดีค่ะ Rainbowmacarons\nS \u003d 3 ชิ้น  ต่อ กล่อง 270บาท\nM \u003d 6 ชิ้น  ต่อ กล่อง 480บาท\nL \u003d  12 ชิ้น  ต่อ กล่อง 930บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX Rainbowmacarons S 1 (Rainbowmacarons Size S 1 กล่อง)",
+              "type": "text"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

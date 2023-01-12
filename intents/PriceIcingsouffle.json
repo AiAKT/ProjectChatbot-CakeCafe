@@ -1,0 +1,49 @@
+{
+  "id": "fed79948-2fcb-4938-b396-5a9b1be9040a",
+  "name": "PriceIcingsouffle",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "สวัสดีค่ะ Icingsouffle\nS \u003d 1 ชิ้น  ต่อ กล่อง 129บาท\nM \u003d 2 ชิ้น  ต่อ กล่อง 229บาท\nL \u003d  3 ชิ้น  ต่อ กล่อง 307บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX Icingsouffle S 1 (Icingsouffle Size S 1 กล่อง)"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

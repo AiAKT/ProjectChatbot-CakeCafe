@@ -1,0 +1,80 @@
+[
+  {
+    "id": "74d8e69c-5d43-42eb-9751-5d024d0c8d37",
+    "data": [
+      {
+        "text": "menu cake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "7dcd62c6-384b-4a3d-8f45-301c4609dd0f",
+    "data": [
+      {
+        "text": "เค้กเมนู",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "a7de7bbf-447c-4a90-a218-02a0ea917826",
+    "data": [
+      {
+        "text": "เมนูเค้ก",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "d5e91ca7-c81b-4d7a-990d-6843e34adeba",
+    "data": [
+      {
+        "text": "เค้ก",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "ceac52b9-b42e-438b-b426-563b17caa44e",
+    "data": [
+      {
+        "text": "cake menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "c365700a-31e2-423b-a1a4-eaf80ea18b25",
+    "data": [
+      {
+        "text": "cake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

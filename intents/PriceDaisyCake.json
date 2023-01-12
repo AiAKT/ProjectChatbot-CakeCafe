@@ -1,0 +1,49 @@
+{
+  "id": "c4792c89-63d9-4ff5-b6e4-a8fa769a02f1",
+  "name": "PriceDaisyCake",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "สวัสดีค่ะ Daisy cake\nS \u003d 1 ชิ้น  ต่อ กล่อง 180บาท\nM \u003d 3 ชิ้น  ต่อ กล่อง 480บาท\nL \u003d  6 ชิ้น  ต่อ กล่อง 950บาท\nกรุณายืนยันออเดอร์โดยการพิมพ์\nชื่อ รายการ พร้อม ขนาด และจำนวนกล่องที่ต้องการ\nEX  Daisy cake S 1 (Daisy cake Size S 1 กล่อง)\n"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
